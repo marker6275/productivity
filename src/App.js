@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import Timer from './Timer';
+import Youtube from './Youtube/Youtube.js';
 import './App.css';
+import Cloud from './cloud.png';
+import TV from './tv.jpg';
+import Kirby from './kirby.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <img src={Cloud} className="cloud" alt="cloud"/> 
+      <img src={TV} className="tv" alt="tv"/>
+      <img src={Kirby} className="kirby" alt="kirby"/>
+      <Timer/>
+      <Youtube/>
+        <p className="great">
+          You're wonderful!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="ily">
+        I love you :3
+      </p>
     </div>
-  );
+  )
 }
 
 export default App;

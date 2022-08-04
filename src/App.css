@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(141, 191, 243);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.playlist {
+  position: absolute;
+  left: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cloud {
+  position: absolute;
+  left: 50%;
+  top: 88.5%;
+  transform: translate(-50%, -50%);
+  background-color:rgb(141, 191, 243);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tv {
+  position: absolute;
+  left: 50%;
+  top: 32.8%;
+  transform: translate(-50%, -50%);
+  height: 625px;
+  width: 741px;
 }
 
-.App-link {
-  color: #61dafb;
+.kirby {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  height: 360px;
+  width: 638px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.great {
+  position: absolute;
+  left: 46%;
+  top: 86%;
+  transform: translate(-50%, -50%);
+  color: rgb(141, 191, 243);
+  font-weight: bold;
+  animation: fadeIn 600s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 0.5;}
+}
+
+.ily {
+  position: absolute;
+  left: 74%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  color: rgb(141, 191, 243);
+  font-weight: bold;
+  animation: fadeIn 6000s;
 }
