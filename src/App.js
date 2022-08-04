@@ -2,9 +2,9 @@ import React from 'react';
 import Timer from './Timer';
 import Youtube from './Youtube/Youtube.js';
 import './App.css';
-import Cloud from './images/cloud.png';
-import TV from './images/tv.jpg';
-import Kirby from './images/kirby.jpg';
+import Cloud from './cloud.png';
+import TV from './tv.jpg';
+import Kirby from './kirby.jpg';
 
 function App() {
   return (
