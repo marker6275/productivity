@@ -1,6 +1,7 @@
 {
   "name": "productivity",
   "version": "0.1.0",
+  "homepage": "https://marker6275.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -25,6 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "run-p server start",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
