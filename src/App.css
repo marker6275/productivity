@@ -40,7 +40,7 @@ body {
   transform: translate(-50%, -50%);
   color: rgb(141, 191, 243);
   font-weight: bold;
-  animation: fadeIn 600s;
+  animation: fadeIn 696s;
 }
 
 @keyframes fadeIn {
@@ -55,5 +55,14 @@ body {
   transform: translate(-50%, -50%);
   color: rgb(141, 191, 243);
   font-weight: bold;
-  animation: fadeIn 6000s;
+  animation: fadeIn 8888s;
+}
+
+.version {
+  color:rgb(141, 191, 243);
+  width: min-content;
+}
+
+.version:hover {
+  color: black;
 }

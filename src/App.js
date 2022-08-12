@@ -20,6 +20,9 @@ function App() {
       <p className="ily">
         I love you :3
       </p>
+      <p className="version">
+        2.0
+      </p>
     </div>
   )
 }
